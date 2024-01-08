@@ -1,3 +1,24 @@
+## Website
+- https://e5470455.landing-page-dpv.pages.dev/
+
+## デプロイ方法
+- Wrangler CLI をインストールします(初回のみ)
+  ```sh
+  npm install -g wrangler
+  ```
+- CLIからCloudflareアカウントにログインします(初回のみ？)
+  ```sh
+  wrangler login
+  ```
+- ビルドコマンドを実行します
+  ```sh
+  npm run build
+  ```
+- 新しいデプロイメントを作成します
+  ```sh
+  npx wrangler pages deploy dist
+  ```
+
 <h1 align=center>Astro + Tailwind CSS + TypeScript Starter and Boilerplate</h1>
 
 <p align=center>Astroplate is a free starter template built with Astro, TailwindCSS & TypeScript, providing everything you need to jumpstart your Astro project and save valuable time.</p>
